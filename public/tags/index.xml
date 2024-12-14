@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/tags/tag2/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Tag3</title>
+      <link>http://localhost:1313/tags/tag3/</link>
+      <pubDate>Thu, 12 Dec 2024 22:49:24 -0500</pubDate>
+      <guid>http://localhost:1313/tags/tag3/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
