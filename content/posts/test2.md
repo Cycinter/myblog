@@ -1,18 +1,18 @@
 ---
-title: Test1
+title: Test2
 date: 2024-12-12T22:49:24-05:00
 lastmod: 2024-12-12T22:49:24-05:00
 author: Jules
 # avatar: /img/author.jpg
 authorlink: https://jinspr.com
-cover: /img/1cover20241212.jpg
+cover: /img/2cover20241214.jpg
 # images:
 #   - /img/cover.jpg
 # categories:
 #   - category1
 tags:
   - tag1
-  - tag2
+  - tag3
 # nolastmod: true
 draft: false
 ---
