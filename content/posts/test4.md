@@ -5,11 +5,11 @@ lastmod: 2024-12-14T13:18:02-05:00
 author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /img/cover.jpg
+cover: 
 # images:
 #   - /img/cover.jpg
 categories:
-  - category1
+  - ideas
 tags:
   - tag1
   - tag2

@@ -8,8 +8,8 @@ authorlink: https://jinspr.com
 cover: /img/1cover20241212.jpg
 # images:
 #   - /img/cover.jpg
-# categories:
-#   - category1
+categories:
+   - ideas
 tags:
   - tag1
   - tag2

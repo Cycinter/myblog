@@ -85,7 +85,7 @@
         </a>
         
         
-        <div class="text-base-content/60 text-sm">Get Something Rolling. 搞点事情。</div>
+        <div class="text-base-content/60 text-sm">Be a producer. 做个生产者。</div>
         
       </div>
       
@@ -110,8 +110,6 @@
 
 
 
-
-
 <li>
   <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Search">
     <ion-icon name="search"></ion-icon>
@@ -122,26 +120,10 @@
 
 
 
-
-
-
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/Cycinter" target="_blank" title="GitHub">
-    
-    <ion-icon name="logo-github"></ion-icon>
-    
-    GitHub
-  </a>
-</li>
-
-
-
-
-
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
-    <ion-icon name="pricetags"></ion-icon>
-    All Tags
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
   </a>
 </li>
 
@@ -158,6 +140,22 @@
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
 
 
 
@@ -168,6 +166,28 @@
 
 
 
+
+
+
+
+
+  
+    
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/Cycinter" target="_blank" title="GitHub">
+    
+    <ion-icon name="logo-github"></ion-icon>
+    
+    GitHub
+  </a>
+</li>
+
+
+
+  
 
 
 
@@ -184,8 +204,6 @@
 
       
       
-        
-      
 
       
 
@@ -200,14 +218,16 @@
 
       
       
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
 
 
-
-  
-  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://github.com/Cycinter" target="_blank" title="GitHub">
-    <ion-icon class="group-hover:text-primary-content" name="logo-github"></ion-icon>
-  </a>
-  
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
 
 
 
@@ -215,13 +235,6 @@
       
 <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
   <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
-</a>
-
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
-  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
 </a>
 
 
@@ -254,6 +267,24 @@
 
 
 
+
+  
+    
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/Cycinter" target="_blank" title="GitHub">
+    
+    <ion-icon name="logo-github"></ion-icon>
+    
+    GitHub
+  </a>
+</li>
+
+
+
+  
 
 
           
@@ -492,9 +523,15 @@ x-data="{
 
 
 
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" integrity="sha256-42IbU8t3tOwwbexB7ZVRHm3YDRf65aBPPjRtIUufj5I=" crossorigin="anonymous"></script>
 <script>
-  var fuseData = [{"author":"Jules","avatar":null,"categories":null,"description":"\u003cp\u003e显示summary\u003c/p\u003e","readingTime":1,"tags":["tag1","tag2"],"title":"Test1","url":"/posts/test1/"},{"author":"Jules","avatar":null,"categories":null,"description":"\u003cp\u003e显示summary\u003c/p\u003e","readingTime":1,"tags":["tag1","tag3"],"title":"Test2","url":"/posts/test2/"}];
+  var fuseData = [{"author":"Author Name","avatar":null,"categories":["life"],"description":"\u003cp\u003eCut out summary from your post content here.\u003c/p\u003e","readingTime":1,"tags":["tag1","tag2"],"title":"Test5","url":"/posts/test5/"},{"author":"Author Name","avatar":null,"categories":["ideas"],"description":"\u003cp\u003eCut out summary from your post content here.\u003c/p\u003e","readingTime":1,"tags":["tag1","tag2"],"title":"Test4","url":"/posts/test4/"},{"author":"Jules","avatar":null,"categories":["ideas"],"description":"\u003cp\u003e显示summary\u003c/p\u003e","readingTime":1,"tags":["tag1","tag2"],"title":"Test1","url":"/posts/test1/"},{"author":"Jules","avatar":null,"categories":["life"],"description":"\u003cp\u003e显示summary\u003c/p\u003e","readingTime":1,"tags":["tag1","tag3"],"title":"Test2","url":"/posts/test2/"},{"author":"Jules","avatar":null,"categories":["tools"],"description":"\u003cp\u003e显示summary1111\u003c/p\u003e","readingTime":1,"tags":["博客","tag3"],"title":"Test3","url":"/posts/test3/"}];
   var fuseOptions = {
     keys: [
       "title",

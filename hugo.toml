@@ -21,7 +21,7 @@ author = "Jules"
 description = "Jules' Blog"
 avatar = "img/avatar.jpg"
 headerTitle = "Jules in Spring"
-motto = "Get Something Rolling. 搞点事情。"
+motto = "Be a producer. 做个生产者。"
 
 # footerBottomText = ""
 
@@ -47,7 +47,7 @@ favicon = "favicon.ico"
 
 # options
 stickyNav = true
-reorderNavItems = ["search", "github", "tags", "posts"]
+# reorderNavItems = ["search", "github", "tags", "posts"]
 # reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
 # collapseNavItems = ["posts", "categories", "tags"]
 collapseNavItems = ["rss"]
