@@ -2,23 +2,18 @@
 title: Test5
 date: 2024-12-14T13:23:11-05:00
 lastmod: 2024-12-14T13:23:11-05:00
-author: Author Name
-# avatar: /img/author.jpg
-# authorlink: https://author.site
+author: Jules
 cover: 
-# images:
-#   - /img/cover.jpg
 categories:
   - life
 tags:
   - tag1
   - tag2
-# nolastmod: true
 draft: false
 ---
 
 Cut out summary from your post content here.
 
 <!--more-->
-
+![[Pasted image 20241217165548.png]]
 The remaining content of your post.
