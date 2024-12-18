@@ -3,9 +3,9 @@ title: Test6
 date: 2024-12-17T16:58:15-05:00
 lastmod: 2024-12-17T16:58:15-05:00
 author: Jules
-cover: /img/1cover20241214.jpg
+cover: /img/1cover20241212.jpg
 categories:
-  - category1
+  - life
 tags:
   - tag1
   - tag2

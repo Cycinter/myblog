@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/test6.md",
+                "file": "content/posts/test7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test6"
+              "title": "test7"
             }
           }
         ]
@@ -155,20 +155,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "77dec495283554e0",
   "lastOpenFiles": [
-    "Pasted image 20241217165923.png",
     "content/posts/test5.md",
     "content/posts/test6.md",
+    "content/posts/test7.md",
+    "content/posts/test1.md",
+    "Pasted image 20241217165923.png",
     "content/posts/test3.md",
     "Pasted image 20241217165602.png",
     "Pasted image 20241217165557.png",
     "Pasted image 20241217165548.png",
     "content/posts/test4.md",
-    "content/posts/test2.md",
-    "content/posts/test1.md"
+    "content/posts/test2.md"
   ]
 }
