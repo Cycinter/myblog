@@ -16,5 +16,4 @@ Cut out summary from your post content here.
 
 <!--more-->
 
-The remaining content of your post.
-![image.png](webp.img.jinspr.com/20241217211549317.png)
+https://cyc-r2.jinspr.com/1cover20241212.jpg
