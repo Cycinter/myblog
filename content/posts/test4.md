@@ -16,4 +16,4 @@ Cut out summary from your post content here.
 
 <!--more-->
 
-https://cyc-r2.jinspr.com/1cover20241212.jpg
+![1cover20241212](https://cyc-r2.jinspr.com/1cover20241212.jpg)
