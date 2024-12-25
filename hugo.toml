@@ -14,14 +14,14 @@ ID = "G-P4SW9YQPJ6"
 lightTheme = "emerald"
 darkTheme = "forest"
 
-backgroundImage = "img/background.jpg"
+# backgroundImage = "me/background.jpg"
 # backgroundImageDark = ""
 
 author = "Jules"
 description = "Jules' Blog"
 avatar = "img/avatar.jpg"
 headerTitle = "Jules in Spring"
-motto = "Be a producer. 做个生产者。"
+motto = "Be a Producer. 做个生产者。"
 
 # footerBottomText = ""
 
