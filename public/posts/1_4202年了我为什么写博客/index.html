@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1_4202年了，我为什么写博客 | Jules in Spring</title>
+
+    
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
+
+<link rel="canonical" href="http://localhost:1313/posts/1_4202%E5%B9%B4%E4%BA%86%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/" />
+
+
+
+<meta name="author" content="Jules" />
+<meta name="description" content="开始写博客，开始一个创作的自留地。
+" />
+
+
+<meta name="keywords" content="博客">
+
+
+
+<meta name="generator" content="Hugo 0.139.4">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/1_4202%E5%B9%B4%E4%BA%86%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/">
+  <meta property="og:site_name" content="Jules in Spring">
+  <meta property="og:title" content="1_4202年了，我为什么写博客">
+  <meta property="og:description" content="开始写博客，开始一个创作的自留地。">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-19T11:04:53-05:00">
+    <meta property="article:modified_time" content="2024-12-19T11:04:53-05:00">
+    <meta property="article:tag" content="博客">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="1_4202年了，我为什么写博客">
+  <meta name="twitter:description" content="开始写博客，开始一个创作的自留地。">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+<style>
+
+#dream-global-bg {
+  background-image: url(/img/background.jpg);
+}
+
+
+
+</style>
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+<script src="//unpkg.com/valine@1.5.2/dist/Valine.min.js"></script>
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/avatar.jpg" alt="Jules in Spring" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Jules in Spring
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Be a producer. 做个生产者。</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Search">
+    <ion-icon name="search"></ion-icon>
+    Search
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/Cycinter" target="_blank" title="GitHub">
+    
+    <ion-icon name="logo-github"></ion-icon>
+    
+    GitHub
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+      
+      
+
+      
+      
+        
+      
+
+      
+
+      
+      
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Search">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://github.com/Cycinter" target="_blank" title="GitHub">
+    <ion-icon class="group-hover:text-primary-content" name="logo-github"></ion-icon>
+  </a>
+  
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="mt-4 px-4">
+  
+  <div class="relative" x-data="{ height: '' }" x-init="height = $el.scrollHeight + 'px'">
+  
+    
+    <div class="absolute right-0 lg:w-36 xl:w-48 hidden lg:block" :style="{ height }">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一块自留地">🏕️一块自留地</a></li>
+    <li><a href="#分享做生产者">🍹分享，做生产者</a></li>
+    <li><a href="#更多连接">🍻更多连接</a></li>
+  </ul>
+</nav>
+
+      <div class="dream-adsense px-5">
+      
+      </div>
+    </div>
+    
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="1_4202年了，我为什么写博客">
+  <meta itemprop="description" content="开始写博客，开始一个创作的自留地。">
+  <meta itemprop="datePublished" content="2024-12-19T11:04:53-05:00">
+  <meta itemprop="dateModified" content="2024-12-19T11:04:53-05:00">
+  <meta itemprop="wordCount" content="1459">
+  <meta itemprop="keywords" content="博客">
+
+      <header>
+        <h1 itemprop="headline">1_4202年了，我为什么写博客</h1>
+        <p class="text-sm">
+          
+            Thursday, Dec 19, 2024
+          
+
+          | <span>3 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Thursday, Dec 19, 2024
+            </span>
+          
+        </p>
+        <div class="flex justify-between">
+          <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Jules</span>
+    
+  
+  </span>
+</div>
+
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=1_4202%e5%b9%b4%e4%ba%86%ef%bc%8c%e6%88%91%e4%b8%ba%e4%bb%80%e4%b9%88%e5%86%99%e5%8d%9a%e5%ae%a2&amp;url=http://localhost:1313/posts/1_4202%E5%B9%B4%E4%BA%86%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/1_4202%E5%B9%B4%E4%BA%86%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener noreferrer"
+      title="Share on Facebook">
+      <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://wa.me/?text=1_4202%e5%b9%b4%e4%ba%86%ef%bc%8c%e6%88%91%e4%b8%ba%e4%bb%80%e4%b9%88%e5%86%99%e5%8d%9a%e5%ae%a2%20http://localhost:1313/posts/1_4202%E5%B9%B4%E4%BA%86%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener noreferrer"
+      title="Share on WhatsApp">
+      <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      
+      <img src="/img/1cover20241219.jpg" alt="1_4202年了，我为什么写博客" />
+      
+
+      <p>开始写博客，开始一个创作的自留地。</p>
+<h1 id="4202年了我为什么写博客">4202年了，我为什么写博客</h1>
+<h2 id="一块自留地">🏕️一块自留地</h2>
+<p>最近听说一个bean soup理论很有意思，大意是一个主妇发了一个做bean soup的视频，有一类留言表示，为什么要做bean soup？？我不吃bean soup，我豆子过敏！——啊这？有没有一种可能，这个视频的受众不是你？有没有一种可能，有人超级需要这个视频。你有这样的想法，你可以划走不看啊，而不是有这样的留言。</p>
+<p>这个理论又很有意思：在别人的地盘KY是很不礼貌的。</p>
+<p>我是喜欢看评论，但是基本不会去评论的人。可能因为打字耗时，或讨厌争论。其实我自己也很难说完全认同这个观点，因为这个评论者也有表达是否喜欢这个题材的权利，或者也能提供新的信息，即从个人的角度表达这个题材是否受众广。只是这个题材真正面向的受众的观点，对博主可能更有意义，能鼓励更多创作，从而更多帮助到特定领域的人。</p>
+<p>不过我更想说的是，大家认为创作者的发布下，是创作者的区域。创作者有一定创作者的属地权。可以删除评论，可以置顶评论，让评论的互动成为自己创作的一部分。</p>
+<p>这种自留地感是很奇特的。结合web3的理念，我们担心自己的po被平台删了，号被封了，特定平台的自留地终归只是封地。个人博客似乎更好一些。</p>
+<p>所以博客我来了。</p>
+<h2 id="分享做生产者">🍹分享，做生产者</h2>
+<p>时不时苦思冥想自己有什么特长，还没有很满意的发现。</p>
+<p>但是有一些日常非常小的收获是我想要拉着朋友分享的。有一些思维方式、日常习惯、有趣的事务是让我拍大腿相见恨晚，或者长期体验下来收获很大的，让我变成更喜欢的自己了。或者是我弄了2天的博客部署，结果对于新的版本需要在原po上更详细一些才能解决系统报错。不知道这些对其他人有没帮助。</p>
+<p>基于自己有的东西，做一个有意识的生产者，而非消费者。这个概念是从《百万富翁快车道》里面看到的，非常有意思。我是个妥妥的消费者，尤其重新做回学生。不说能获取什么财富，但是我想尝试去生产一些这个世界本来没有的东西，即时它很小。近期也在读的《最小阻力之路》在类似事情上的观点很有意思，为什么人们想退休？苦哈哈工作后的终极目标是退休（这是《百万富翁快车道》的终极目标hh但是殊途同归）？就连上师也要在勤恳消除罪孽后期待涅槃——另一种形式的退休。</p>
+<p>但是创造者是没有退休的概念的，作者的艺术家朋友没有半个人在到了其他行业该退休的年纪退休。他们还在创作，在织布，在陶艺，在绘画，在作曲。——我想到宫崎骏，年年都说自己要退休但是😅。创作是永久的动力。——我能不能不弃坑真的很难说🤐</p>
+<p><img src="https://23fee6a.webp.li/1cover20241219.jpg" alt="1cover20241219.jpg"></p>
+<p>所以创作、生产者似乎是”生活在别处“的解药。</p>
+<p>生产者这个概念，有另一概念与之相对——消费者。我可以快速的为自己的行为贴标签分类，我现在是生产者时间，我现在是消费者时间——当我又在线上购物，而非写博客的时候。我在花钱买域名，而非花时间写博客😂。所以我用“生产者”以替代“创作者”，这是我自己更好理解的概念。这也是博客motto的来源。</p>
+<h2 id="更多连接">🍻更多连接</h2>
+<p>我这些小分享既然是我生活中的灵丹妙药，但被仍埋没至此，肯定是有原因的。</p>
+<p>其中一个可能是，它们还站的不够高。</p>
+<p>我只是几十亿人之一，可能我的这些分享，对地球上的第50万人有帮助，但不在我生活的有49万人口的城市。互联网万岁。在我人生经验至此、我既定的水准下，传播范围就是一个很重要的变量，所谓的扩大影响力吧。这个词大到我有些不好意思，那我希望可以产生更多不同的连接。找到bean soup能连接到的人，产生一些有意思的连接。</p>
+<p><em>下图是蒙特利尔生物圈的图，来自我的朋友，拍的好好看，我的博客测试图、交作业的图都是这张，庆祝发文第一篇，送给大家。</em></p>
+<p><img src="https://23fee6a.webp.li/20241219121511061.png" alt="image.png"></p>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <div></div>
+        
+      </div>
+      
+    </article>
+  </div>
+
+  
+  <div class="divider max-w-[65ch] mx-auto"></div>
+
+  <section class="max-w-[65ch] mx-auto space-y-4">
+    
+
+
+
+
+<article>
+
+  <div id="vcomments"></div>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'RXWmIGwWNmR0ddL09nnUWE5V-MdYXbMMI',
+    appKey: 'xRrV0ujfIjIrTEFiogMIHQZe',
+    lang:'en'
+  })
+</script>
+
+</article>
+
+
+
+
+  </section>
+  
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2024 Jules in Spring
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">About Me</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Hi, my name is Jules Chen.</p>
+<p>This is my blog.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2024 Jules in Spring
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4SW9YQPJ6"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-P4SW9YQPJ6');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

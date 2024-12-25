@@ -1,0 +1,69 @@
+baseURL = 'https://jinspr.com/'
+languageCode = 'en-us'
+title = 'Jules in Spring'
+theme = "dream"
+hasCJKLanguage = true
+
+[services]
+[services.googleAnalytics]
+ID = "G-P4SW9YQPJ6"
+
+[params]
+# zenMode = true
+
+lightTheme = "emerald"
+darkTheme = "forest"
+
+backgroundImage = "img/background.jpg"
+# backgroundImageDark = ""
+
+author = "Jules"
+description = "Jules' Blog"
+avatar = "img/avatar.jpg"
+headerTitle = "Jules in Spring"
+motto = "Be a producer. 做个生产者。"
+
+# footerBottomText = ""
+
+rss = true
+
+# utterancesRepo = ""
+
+valine = true
+LEANCLOUD_APP_ID = "RXWmIGwWNmR0ddL09nnUWE5V-MdYXbMMI"
+LEANCLOUD_APP_KEY = "xRrV0ujfIjIrTEFiogMIHQZe"
+
+# waline = true
+# walineServer = ""
+
+email = "cycinter@hotmail.com"
+
+siteStartYear = 2024
+
+favicon = "favicon.ico"
+
+# Syntax highlighting
+# customSyntaxHighlighting = true
+
+# options
+stickyNav = true
+reorderNavItems = ["search", "github", "tags", "posts"]
+# reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
+# collapseNavItems = ["posts", "categories", "tags"]
+collapseNavItems = ["rss"]
+noDefaultSummaryCover = false
+showTableOfContents = true
+showSummaryCoverInPost = true
+showPrevNextPost = true
+reorderShares = ["x", "facebook", "whatsapp"]
+
+[params.navItems]
+# series = { href = "/series", icon = "planet", title = "Series" }
+github = { href = "https://github.com/Cycinter", target = "_blank", icon = "logo-github", title = "GitHub" }
+[params.advanced]
+customCSS = ["css/custom.css"]
+customJS = []
+
+# [params.experimental]
+# jsDate = true
+# jsDateFormat = "yyyy年MM月dd日"
