@@ -17,7 +17,7 @@ draft: false
 
 # 📖系列介绍
 
-本系列分为以下几个部分。纯纯小白看了好多篇攻略，踩了不少坑，有的因为github网站更新，有的有几小步可能默认大家知道，但是我完全不知道怎么配置，一个个试过、搜过、被chatgpt欺骗过，debug过，花了很长时间完成。每一个我强调的地方都是踩过坑的hhh此篇介绍详细从零搭建，VSCode, git bash, Nodejs都是新装的。
+本系列分为以下几个部分。纯纯小白看了好多篇攻略，踩了不少坑，有的因为github网站更新，有的有几小步可能默认大家知道，但是我完全不知道怎么配置，一个个试过、搜过、被chatgpt欺骗过，花了很长时间完成。每一个我强调的地方都是踩过坑的hhh此篇介绍详细从零搭建，VSCode, git bash, Nodejs都是新装的。
 
 ![image.png](https://23fee6a.webp.li/20241225175045995.png)
 
@@ -27,6 +27,8 @@ draft: false
 - Node.js：PicGo安装插件前，页面会提示装，此篇用不到，后续图床篇会用到。
 
 **相关链接**：
+- B站视频教程：
+https://www.bilibili.com/video/BV1H5CiYHEQR/?spm_id_from=333.999.0.0&vd_source=6c2436a2c690c581b1d0c127e9f28a37
 - 教程命令行：
 https://github.com/Cycinter/JulesTutorial/blob/master/HugoBlog/HugoBlogTutorial-cn.txt
 - 教程workflow文件 (.yaml):
