@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/1_4202年了，我为什么写博客.md",
+                "file": "content/posts/草稿：书写注意.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_4202年了，我为什么写博客"
+              "title": "草稿：书写注意"
             }
           }
         ]
@@ -166,6 +166,7 @@
   "active": "86b25392d34008a0",
   "lastOpenFiles": [
     "content/posts/2_24k纯小白Hugo+github actions博客部署教程（一）.md",
+    "content/posts/草稿：书写注意.md",
     "content/posts/1_4202年了，我为什么写博客.md",
     "content/posts/test1.md",
     "content/posts/2024m12d25h17m18s52.md",
