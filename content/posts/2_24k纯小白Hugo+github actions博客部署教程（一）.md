@@ -1,5 +1,5 @@
 ---
-title: 24k纯小白Hugo+github actions博客部署教程（一）
+title: 24k纯小白Hugo+Github博客部署教程（一）博客主体
 date: 2024-12-20T11:26:53-05:00
 lastmod: 2024-12-25T11:26:53-05:00
 author: Jules
