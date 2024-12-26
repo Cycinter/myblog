@@ -32,7 +32,8 @@ https://www.bilibili.com/video/BV1H5CiYHEQR/?spm_id_from=333.999.0.0&vd_source=6
 https://github.com/Cycinter/JulesTutorial/blob/master/HugoBlog/HugoBlogTutorial-cn.txt
 - 教程workflow文件 (.yaml):
 https://github.com/Cycinter/JulesTutorial/blob/master/HugoBlog/hugo.yaml
-
+- 我主要参考的教程：
+https://www.lovehxy.com/posts/%E4%BD%BF%E7%94%A8hugo%E4%BB%8E0%E6%90%AD%E5%BB%BAblog%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github-pages/
 ## 📑0. 部署总览
 
 本文介绍以下1、2、3步骤，实现博客的主体搭建。总览挺重要的，我看了好多篇教程，刚开始因为不知道搭建的全貌，如总体要做什么，每一步是为什么，每部应该有什么，觉得很没头绪，故整理如下：
